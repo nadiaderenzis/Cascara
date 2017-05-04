@@ -1,0 +1,12 @@
+int obtenerIndicePorId(EPersona listaPersonas[],int cantidad,char mensaje[], char mensajeError[],char mensajeNoEncontrado[]);
+int obtenerEspacioLibreLlamadas(ELlamadas lista[], int cantidad_elementos, int estado);
+int obtenerEspacioLibre(EPersona lista[], int cantidad_elementos, int estado);
+int obtenerIndiceLlamadaPorId(ELlamadas listaLlamadas[],int cantidad,char mensaje[], char mensajeError[],char mensajeNoEncontrado[]);
+int usuarioConMayorCantidadDeLlamadas (ELlamadas listaLlamadas[],int cantComent,EPersona listaUsuar[],int cantUsuar,int usuarConMasMensajes[]);
+int buscarPorIdLlamadas(ELlamadas lista[], int cantidad,int idComentario);
+int usuarioConMayorCantidadDeComentarios (ELlamadas listaComent[],int cantComent,EPersona listaUsuar[],int cantUsuar,int usuarConMasMensajes[]);
+int buscarPorDni(EPersona lista[], int cantidad,char dni[]);
+int buscarPorIdUsuario(EPersona lista[], int cantidad,int idUsuario);
+void motivoMasRepetido (ELlamadas lista[],int cantidad,EMotivo motivo[],int motivosMasRepetidos[]);
+void motivoMasDemoraEnPromedio (ELlamadas lista[],int cantidad,EMotivo motivo[],int motivosMasDemorados[]);
+int buscarPorDni(EPersona lista[], int cantidad,char dni[]);
